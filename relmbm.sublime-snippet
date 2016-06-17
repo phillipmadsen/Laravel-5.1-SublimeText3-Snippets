@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * Relationship with the ${1:Model} model.
+ *
+ * @author	${5:Phillip Madsen}
+ * @return	\Illuminate\Database\Eloquent\Relations\MorphToMany
+ */
+public function ${2:${1/(\w{1})/\L$1/}s}()
+{
+	return \$this->morphedByMany(${1/(\w{1})/\U$1/}::class, '${3:relationable}');
+}
+{{-- use App\Models\${1/(\w{1})/\U$1/}; --}}
+
+]]></content>
+	<tabTrigger>relmbm</tabTrigger>
+	<description>Generate "morph by many" relationship</description>
+
+</snippet>
