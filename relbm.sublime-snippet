@@ -1,0 +1,19 @@
+<snippet>
+	<content><![CDATA[
+
+/**
+ * Relationship with the ${1:Model} model.
+ *
+ * @author	${5:Phillip Madsen}
+ * @return	\Illuminate\Database\Eloquent\Relations\BelongsToMany
+ */
+public function ${2:${1/(\w{1})/\L$1/}s}()
+{
+	return \$this->belongsToMany(${1/(\w{1})/\U$1/}::class)${4:->withPivot($5)}${6:->withTimestamps()};
+}
+{{-- use App\Models\${1:${1/(.+)/\u\1/g}}; --}}
+
+]]></content>
+	<tabTrigger>relbm</tabTrigger>
+	<description>Generate "belongs to many" relationship</description>
+</snippet>

@@ -1,0 +1,55 @@
+<snippet>
+	<content><![CDATA[
+"font_face": "M+ 2m bold",
+"font_face": "M+ 2m bold",
+"font_face": "M+ 2m regular",
+"font_face": "M+ 2m medium",
+"font_face": "M+ 2m thin",
+"font_face": "M+ 2m light",
+"font_face": "Source Code Pro",
+"font_face": "Source Code Pro SemiBold",
+"font_face": "Droid Sans Mono",
+"font_face": "Anonymous Pro Bold",
+
+"font_face": "Andale Mono",
+"font_face": "Consolas",
+"font_face": "Courier",
+"font_face": "Courier New",
+"font_face": "Envy Code R",
+"font_face": "Envy Code R Bold",
+"font_face": "Envy Code A",
+"font_face": "Inconsolata",
+"font_face": "Anonymous Pro",
+"font_face": "Envy Code R",
+"font_face": "Dejavu Sans Mono",
+"font_face": "Dejavu Sans Condensed",
+"font_face": "Dejavu Sans Oblique",
+"font_face": "Dejavu Sans ExtraLight",
+"font_face": "Dejavu Sans Condensed Bold",
+"font_face": "Dejavu Sans Condensed Bold Oblique",
+"font_face": "crillee",
+"font_face": "Andale Mono",
+"font_face": "Amaranth",
+"font_face": "Hack-Oblique",
+"font_face": "Ubuntu Mono",
+"font_face": "Comic Neue Light",
+"font_face": "Comic Neue Regular",
+"font_face": "Comic Neue Bold",
+"font_face": "Comic Neue Light Oblique",
+"font_face": "Comic Neue Regular Oblique",
+"font_face": "Comic Neue Bold Oblique",
+"font_face": "Comic Neue Angular Light",
+"font_face": "Comic Neue Angular Regular",
+"font_face": "Comic Neue Angular Bold",
+"font_face": "Comic Neue Angular Light Oblique",
+"font_face": "Comic Neue Angular Regular Oblique",
+"font_face": "Comic Neue Angular Bold Oblique",
+"font_face": "Fira Code",
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>fonts</tabTrigger>
+	<description>Great list of fonts to use in SublimeText Themes</description>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
